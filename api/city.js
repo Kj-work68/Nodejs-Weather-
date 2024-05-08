@@ -1,7 +1,8 @@
 const axios = require("axios")
-const setthings = require("../setting")
+const settings = require("../setting")
 const city  = (cityName = "Bangkok", countryCode = "th") =>{
     return axios
-    .get(`${setthings.apiUrl}?q=${cityName},${countryCode}&appid=${setthings.apiKey}&units=metric`)
+    .get(`${settings.apiUrl}?q=${cityName},${countryCode}
+    &appid=${settings.apiKey}&units=metric`)
 }
 module.exports = city
