@@ -13,7 +13,7 @@ app.get("/", function (req, res) {
     if (err) {
       res.status(400).send("Error List not found");
     } else {
-      res.status(200).render("home", { lists: listObj });
+      res.status(200).render("home", {lists: listObj});
     }
   });
 });
