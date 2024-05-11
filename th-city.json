@@ -7,5 +7,46 @@
             "lat": 15.6338096
         },
         "country":"TH"
+    },
+    {
+        "id":2,
+        "name": "Bangkok",
+        "coord":{
+            "lon": 100.4682975 ,
+            "lat": 13.7245449
+        },
+        "country":"TH"
+    },
+
+    {
+        "id":3,
+        "name": "Nong Khai",
+        "coord":{
+            "lon": 102.0745298 ,
+            "lat": 17.9483693
+        },
+        "country":"TH"
+    },
+
+    {
+        "id":4,
+        "name": "Nakhon Ratchasima",
+        "coord":{
+            "lon": 101.4662493 ,
+            "lat": 14.9585381
+        },
+        "country":"TH"
+    },
+
+    {
+        "id":5,
+        "name": "Chiang Rai",
+        "coord":{
+            "lon": 99.2586079 ,
+            "lat": 19.7313168
+        },
+        "country":"TH"
     }
+
+
 ]
